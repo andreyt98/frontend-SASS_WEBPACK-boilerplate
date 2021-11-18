@@ -1,0 +1,26 @@
+{
+  "name": "project-basic-structure",
+  "version": "1.0.0",
+  "description": "basic web project structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/andreyts98/project-basic-structure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreyts98/project-basic-structure/issues"
+  },
+  "homepage": "https://github.com/andreyts98/project-basic-structure#readme",
+  "devDependencies": {
+    "dart-sass": "^1.25.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.4"
+  }
+}
