@@ -1,2 +1,2 @@
-#Frontend boilerplate with SASS and gulp 4
+# Frontend boilerplate with SASS and gulp 4
 
