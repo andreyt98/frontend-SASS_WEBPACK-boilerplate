@@ -3,14 +3,16 @@ const sass = require ('gulp-sass')(require('sass'));
 
 
 function compile(){
-    return src('./app/sass/style.scss')
-    .pipe(sass())
+    return src('./app/sass/**/*.scss')
+    .pipe(sass({
+        outputStyle: 'compressed'
+   }))
     .pipe(dest('./css'));
 }
 
 
 function watchSass(){
-    watch('./app/sass/style.scss',compile);
+    watch('./app/sass/**/*.scss',compile);
 }
 
 exports.compile = compile;
