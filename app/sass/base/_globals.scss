@@ -9,28 +9,35 @@ html{
     scroll-behavior: smooth;
 
 
+    // change of font size
     // % may vary from project to project 
-    @include respond(phone-small){
-
+    @media #{$phone-up}{  //300px
         font-size: 55%;
+
+    }
+
+
+    @media #{$tab-up}{ //600px
+        font-size: 70%;
+
+    }
+
+
+    // @media #{$tab-port-up}{ //900px
+    //     font-size: 70%;
+
+    // }
+
+
+    @media #{$laptop-up}{ //1200px
+        font-size: 85%;
+
     }
    
+    @media #{$desktop-up}{ //1800px
+        font-size: 90%;
 
-    @include respond(phone){
-
-        font-size: 70%;
     }
-
-
-    @include respond(tab-land) {
-        font-size: 85%; 
-    }
-
-    
-    @include respond(big-desktop) {
-        font-size: 90%; 
-    }
-
 
 
 }
