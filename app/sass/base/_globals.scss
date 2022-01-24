@@ -10,35 +10,33 @@ html{
 
 
     // change of font size
-    // % may vary from project to project 
+    // sizes may vary from project to project 
+    
+    @media #{$phone-down}{  //300px
+        font-size: 1rem;
+        
+    }
     @media #{$phone-up}{  //300px
-        font-size: 55%;
-
+        font-size: 1.2rem;
+        
     }
-
-
+    
+    
     @media #{$tab-up}{ //600px
-        font-size: 70%;
-
+        font-size: 1.3rem;
+        
     }
 
-
-    // @media #{$tab-port-up}{ //900px
-    //     font-size: 70%;
-
-    // }
-
-
+        
     @media #{$laptop-up}{ //1200px
-        font-size: 85%;
-
+        font-size: 1.5rem;
+        
     }
-   
+        
     @media #{$desktop-up}{ //1800px
-        font-size: 90%;
+        font-size: 1.7rem;
 
     }
-
 
 }
 
