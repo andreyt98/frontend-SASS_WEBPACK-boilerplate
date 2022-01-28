@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "## Quickstart guide",
   "main": "gulpfile.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andreyts98/frontend-SASS-boilerplate.git"
@@ -16,12 +15,11 @@
     "url": "https://github.com/andreyts98/frontend-SASS-boilerplate/issues"
   },
   "homepage": "https://github.com/andreyts98/frontend-SASS-boilerplate#readme",
-
   "devDependencies": {
     "dart-sass": "^1.25.0",
     "gulp": "^4.0.2",
     "gulp-sass": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
     "sass": "^1.43.4"
   }
-
 }
