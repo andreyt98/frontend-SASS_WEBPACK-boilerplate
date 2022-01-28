@@ -2,7 +2,7 @@ const { src, dest, watch } = require("gulp");
 const sass = require("gulp-sass")(require("sass"));
 const uglify = require("gulp-uglify");
 
-function compile() {
+function compileSass() {
   return src("./src/sass/**/*.scss")
     .pipe(
       sass({
@@ -13,7 +13,7 @@ function compile() {
 }
 
 function watchSass() {
-  watch("./src/sass/**/*.scss", compile);
+  watch("./src/sass/**/*.scss", compileSass);
 }
 function uglifyjs() {
   return src("./src/js/*.js")
@@ -21,6 +21,6 @@ function uglifyjs() {
   .pipe(dest("./public/js"))
 }
 
-exports.compile = compile;
+exports.compile = compileSass;
 exports.watchSass = watchSass;
 exports.uglifyjs = uglifyjs;
