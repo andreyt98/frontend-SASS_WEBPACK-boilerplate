@@ -5,5 +5,5 @@
 - Clone or download this repo.
 - Install Nodejs if you don't have it.
 - Run npm install
-- Run gulp watchSass to make Sass start warching for changes
+- Run gulp to make Sass start warching for changes
 - Also, run gulp uglifyjs to minify your JS code
