@@ -11,35 +11,37 @@ html {
   scroll-behavior: smooth;
 
   // change of font size
-  @media #{$phone-down} {
-    //300px
+  @media #{$xs} {
+    //320px
     // font-size: 1rem;
   }
-  @media #{$phone-up} {
-    //300px
+  @media #{$sm} {
+    //648px
     font-size: 1.2rem;
   }
 
-  @media #{$tab-up} {
-    //600px
+  @media #{$md} {
+    //720px
     font-size: 1.3rem;
   }
 
-  @media #{$laptop-up} {
-    //1200px
+  @media #{$lg} {
+    //1024px
     font-size: 1.5rem;
   }
 
-  @media #{$desktop-up} {
-    //1800px
+  @media #{$xl} {
+    //1280px
+    font-size: 1.7rem;
+  }
+  @media #{$xxl} {
+    //1538px
     font-size: 1.7rem;
   }
 }
 
 body {
   box-sizing: border-box;
-
-  // see if this overflow property works for your project or not
   overflow-x: hidden;
 }
 

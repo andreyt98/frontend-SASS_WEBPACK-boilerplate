@@ -3,20 +3,28 @@
 $white: #fff;
 $black: #000;
 
+//change btn color based on project
+$btn-bg: rgb(22, 35, 90);
+$btn-bg-dark: rgb(11, 21, 65);
+$btn-color: #fff;
+
+$btn-bg2: rgb(252, 134, 24);
+$btn-bg2-dark: rgb(212, 108, 10);
+$btn-color2: #fff;
+
 // MEDIA QUERIES
+// -------- BREAKPOINTS ----------
+$xs: "only screen and (min-width: 320px)";
 
-$small-phone-down: "only screen and (max-width: 180px)";
+$sm: "only screen and (min-width: 640px)";
 
-$phone-down: "only screen and (max-width: 300px)";
-$phone-up: "only screen and (min-width: 300px)";
+$md: "only screen and (min-width: 768px)";
 
-$tab-down: "only screen and (max-width: 600px)";
-$tab-up: "only screen and (min-width: 600px)";
+$lg: "only screen and (min-width: 1024px)";
 
-$tab-port-up: "only screen and (min-width: 900px)";
+$xl: "only screen and (min-width: 1280px)";
 
-$laptop-up: "only screen and (min-width: 1200px)";
+$xxl: "only screen and (min-width: 1536px)";
 
-$desktop-up: "only screen and (min-width: 1800px)";
 
 // ...........................
