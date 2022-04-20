@@ -9,35 +9,6 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-
-  // change of font size
-  @media #{$xs} {
-    //320px
-    // font-size: 1rem;
-  }
-  @media #{$sm} {
-    //648px
-    font-size: 1.2rem;
-  }
-
-  @media #{$md} {
-    //720px
-    font-size: 1.3rem;
-  }
-
-  @media #{$lg} {
-    //1024px
-    font-size: 1.5rem;
-  }
-
-  @media #{$xl} {
-    //1280px
-    font-size: 1.7rem;
-  }
-  @media #{$xxl} {
-    //1538px
-    font-size: 1.7rem;
-  }
 }
 
 body {
