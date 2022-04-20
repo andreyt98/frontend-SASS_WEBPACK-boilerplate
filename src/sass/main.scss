@@ -1,13 +1,13 @@
 // main sass file
 
 // BASE
-@import "src/sass/base/_variables";
-@import "src/sass/base/_mixins";
-@import "src/sass/base/_globals";
-@import "src/sass/base/_utilities";
+@import "base/variables";
+@import "base/_mixins";
+@import "base/_globals";
+@import "base/_utilities";
 
 // COMPONENTS
 
 // LAYOUT
-@import "src/sass/layout/_header";
-@import "src/sass/layout/_footer";
+@import "layout/_header";
+@import "layout/_footer";

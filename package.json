@@ -2,24 +2,26 @@
   "name": "frontend-sass-boilerplate",
   "version": "1.0.0",
   "description": "## Quickstart guide",
-  "main": "gulpfile.js",
-  "scripts": {},
+  "main": "index.js",
+  "scripts": {
+    "buildsass": "sass --watch --style=compressed ./src/sass/main.scss:./public/css/main.css",
+    "uglifyjs": "uglifyjs ./src/js/*.js --source-map url=app.min.js.map,includeSources -c -m  -o ./public/app.min.js ",
+    "watchjs": "watch 'npm run uglifyjs' src"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andreyts98/frontend-SASS-boilerplate.git"
+    "url": "git+https://github.com/andreyt98/frontend-SASS-boilerplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andreyts98/frontend-SASS-boilerplate/issues"
+    "url": "https://github.com/andreyt98/frontend-SASS-boilerplate/issues"
   },
-  "homepage": "https://github.com/andreyts98/frontend-SASS-boilerplate#readme",
+  "homepage": "https://github.com/andreyt98/frontend-SASS-boilerplate#readme",
   "devDependencies": {
-    "dart-sass": "^1.25.0",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^5.0.0",
-    "gulp-uglify": "^3.0.2",
-    "sass": "^1.43.4"
+    "sass": "^1.50.1",
+    "uglify-js": "^3.15.4",
+    "watch": "^1.0.2"
   }
 }
