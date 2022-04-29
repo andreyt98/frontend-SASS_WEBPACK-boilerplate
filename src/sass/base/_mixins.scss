@@ -12,14 +12,12 @@
   left: $left;
 }
 
-@mixin flex($direction: null, $justify: null, $align: null) {
+@mixin flex($direction: null, $justify: null, $align: null, $gap:null) {
   display: flex;
-
   flex-direction: $direction;
-
   justify-content: $justify;
-
   align-items: $align;
+  gap: $gap;
 }
 
 @mixin horizontal-center {

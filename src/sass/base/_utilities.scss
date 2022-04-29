@@ -5,47 +5,35 @@
     padding: 1rem;
     
     @media #{$sm}{
-        margin-inline: 2.5rem;
-        
+        margin-inline: 2.5rem;       
     }
 }
 
+:is(.btn-primary, .btn-secondary){
+     border-radius: 4px;
+    border:none;
+    display: inline-block;
+    padding-block: .2rem;
+    padding-inline: 1rem;
+    cursor: pointer;
+}
 .btn-primary{
     background: $btn-bg;
     color: $btn-color;
     &:hover{
-        background: $btn-bg-dark;
-        
+        background: $btn-bg-dark;      
     }
-
 }
 
 .btn-secondary{
     background: $btn-bg2;
     color: $btn-color2;
     &:hover{
-        background: $btn-bg2-dark;
-        
+        background: $btn-bg2-dark;       
     }
 }
 
-.btn-primary, .btn-secondary{
-    border-radius: 4px;
-    border:none;
-    display: inline-block;
-    padding-block: .2rem;
-    padding-inline: 1rem;
-    cursor: pointer;
-
-
-    
-}
-
-
 .fixed-nav{
     width: 100%;
-
-
     position: fixed;
-
 }
