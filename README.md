@@ -1,10 +1,34 @@
-# Frontend boilerplate with SASS
+# Frontend SASS and WEBPACK boilerplate 
 
 ## Quickstart guide
 
-- Clone or download this repo.
-- Install Nodejs if you don't have it.
-- Run: 'npm install'
-- Run: 'npm run buildsass' to make Sass start warching for changes
-- Run: 'npm run watchjs' to minify your JS code, watch for changes, and creating a sourcemap
-- Start coding!
+1- Clone or download this repo.
+
+---
+2- To use it,  install
+```
+Nodejs (and make sure to have NPM)
+```
+---
+2- To install dependencies run:
+```
+npm install
+```
+---
+3- To to open a webpack server in the browser run:
+
+```
+npm start 
+```
+---
+
+## 4- Start coding!!
+```
+* There's no need to add your js files to the html, nor the stylesheets *.
+```
+---
+5- To build your project for production run:
+```
+npm run build
+```
+
